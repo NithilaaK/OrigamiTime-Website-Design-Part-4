@@ -1,0 +1,210 @@
+img {
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    margin: 10px;
+}
+h1{
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    background-image: url('o.jpg');
+    padding: 100px;
+    text-shadow: 5px 5px #0e31ba;
+}
+#intro{
+    display: flex;
+    justify-content: center;
+}
+iframe {
+  margin: 10px;
+}
+ol {
+  margin: 10px;
+  background-color: #ffffff; 
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 300px;   
+  padding-top: 20px;
+  padding-bottom: 27px;
+}
+h2{
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
+    margin: 10px;
+}
+h5{
+  font-family: Tahoma,Verdana,Segoe,sans-serif;
+  margin: 10px;
+}
+h3{
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
+  margin: 10px;
+}
+p{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+li{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.don {
+  margin: 10px;
+  background-color: #e4b9ec; 
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 300px;   
+  padding: 2px;
+}
+.pig {
+  background-color: #ffffff; 
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 325px;   
+  padding-right: 25px;
+  margin-left: 45px;
+  margin-top: -415px;
+} 
+body {
+  margin: 0px;  
+  background-image: linear-gradient(#a3fff6, #17b3a3);
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.came{
+  margin: 40px;
+}
+.pigconv{
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 550px;   
+  padding: 15px;
+  background-color: #c690d6; 
+  margin-left: 500px;
+  margin-top: -225px;
+  margin-bottom: 200px;
+}
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 285px;
+    perspective: 1000px;
+    margin-left: 70px;
+    margin-top: 60px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #86EFE5;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #86EFE5;
+    color: white;
+    transform: rotateY(180deg);
+  }
+.pigvid{
+  margin: 500px;
+  margin-top: -400px;
+  background-color: #e3ffb6;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 425px;
+}
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #e5adf7;
+  padding: 20px;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+} 

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet"
+    type="text/css"
+    href="page-style.css">
+    <body>
+        <h2 id="pigeon">How to Make 🦎 A Chameleon 🦎</h2>
+        <a href="index.html" class="don">I Don't Want to Make This 😐</a>
+        <h3>This is what your final product will look like!</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <p style='font-size:50px;'>What could it look like? 🤔</p> 
+              </div>
+              <div class="flip-card-back">
+                <img src="19m.jpg" width=250 height=250 id="pigimg">
+              </div>
+            </div>
+          </div>
+          <div class="pigvid">
+        <h3>Use the video to help you make it!</h3>
+        <iframe width="400" height="300" src="https://www.youtube.com/embed/d2V4BgM_5JU"></iframe>
+        </iframe>
+        </div>
+        <div class="pig">
+        <h3>3 Fun facts about Chameleons</h3>
+        <ul>
+            <li>Their feet work like salad tongs!</li>
+            <li>Almost half of all known chameleon species live in Madagascar.</li>
+            <li>They change color in order to regulate body temperature!</li>
+        </ul>
+        </div>
+        <div class="pigconv">
+        <h2>Length Converter</h2>
+        <p>If you aren't familiar with the units of measurement, then use the converter to convert from inches to cm, or vice versa!</p>
+        <p>
+        <label>Inches</label>
+        <input id="inputInches" type="number" placeholder="Inches" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+        </p>
+        <p>Centimeters: <span id="outputCM"></span></p>
+        </div>
+        <script>
+        function LengthConverter(valNum) {
+        document.getElementById("outputCM").innerHTML=valNum/0.39370;
+        }
+        </script>
+</body>
+</html>

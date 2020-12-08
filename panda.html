@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet"
+    type="text/css"
+    href="page-style.css">
+    <body>
+        <h2 id="pigeon">How to Make 🐼 A Panda 🐼</h2>
+        <a href="index.html" class="don">I Don't Want to Make This 😐</a>
+        <h3>This is what your final product will look like!</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <p style='font-size:50px;'>What could it look like? 🤔</p> 
+              </div>
+              <div class="flip-card-back">
+                <img src="19a.jpg" width=250 height=250 id="pigimg">
+              </div>
+            </div>
+          </div>
+          <div class="pigvid">
+        <h3>Use the video to help you make it!</h3>
+        <iframe width="400" height="300" src="https://www.youtube.com/embed/0nTzbr6D7Pw"></iframe>
+        </iframe>
+        </div>
+        <div class="pig">
+            <h3>3 Fun facts about Pandas</h3>
+            <ul>
+                <li>Pandas have great camouflage for their environment. ...</li>
+                <li>Their eyes are different to normal bears.</li>
+                <li>An adult panda can eat 12–38 kilos of bamboo per day!</li>
+            </ul>
+        </div>
+        <div class="pigconv">
+        <h2>Length Converter</h2>
+        <p>If you aren't familiar with the units of measurement, then use the converter to convert from inches to cm, or vice versa!</p>
+        <p>
+        <label>Inches</label>
+        <input id="inputInches" type="number" placeholder="Inches" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+        </p>
+        <p>Centimeters: <span id="outputCM"></span></p>
+        </div>
+        <script>
+        function LengthConverter(valNum) {
+        document.getElementById("outputCM").innerHTML=valNum/0.39370;
+        }
+        </script>
+</body>
+</html>
